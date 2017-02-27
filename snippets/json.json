@@ -1,0 +1,30 @@
+{
+	"VSCode.snipet": {
+		"prefix": "snip",
+		"body": [
+			"\"${1:<snipetKey>}\": {",
+			"\t\"prefix\": \"${2:<snipetTrigger>}\",",
+			"\t\"body\": [",
+			"\t\t\"${4:<content-line1>}\"$0",
+			"\t],",
+			"\t\"description\": \"${3:<Snipet description>}\"",
+			"}"
+		],
+		"description": "Define a snipet."
+	},
+	"VSCode.snipet.tab": {
+		"prefix": "t",
+		"body": [
+			"\"\\t$0\""
+		],
+		"description": "Add tab character escape (\\t) to indent."
+	},
+	"VSCode.snipet.tabc": {
+		"prefix": "tc",
+		"body": [
+			"\"\\t${1}\",",
+			"$0"
+		],
+		"description": "Add tab character escape (\\t) to indent and jump to next line."
+	}
+}

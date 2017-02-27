@@ -1,0 +1,33 @@
+{
+  "name": "vsc-meta-snippet",
+  "displayName": "Meta-snippet for Visual Studio Code",
+  "description": "Snippet to define snippets for Visual Studio Code.",
+  "icon": "images/vsc_icon.png",
+  "publisher": "wmontalvo",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.9.1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippet",
+    "create snippet",
+    "snippets",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsonmontalvo/vsc-meta-snippet.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      }
+    ]
+  }
+}
